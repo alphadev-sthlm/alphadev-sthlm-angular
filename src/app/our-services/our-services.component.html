@@ -1,0 +1,17 @@
+<div class="services-part">
+  <div class="services-part__container">
+    <div class="services-part__left">
+      <services-profession
+        *ngFor="let job of getLeftProfessions()"
+        [profession]="job">
+      </services-profession>
+    </div>
+    <div class="services-part__right">
+      <services-profession
+        *ngFor="let job of getRightProfessions()"
+        [profession]="job">
+      </services-profession>
+    </div>
+  </div>
+  <img class="services-part__image" src="assets/skills.png"/>
+</div>

@@ -1,0 +1,19 @@
+.intro-part {
+  background: url('../../assets/intro.jpg') center bottom;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 30px;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  z-index: 1;
+
+  &__banner {
+    width: auto;
+    margin: 0 auto;
+  }
+}

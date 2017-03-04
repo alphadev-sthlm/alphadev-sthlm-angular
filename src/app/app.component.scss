@@ -1,0 +1,60 @@
+@import "app.variables";
+@import "app.reset";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: arial, serif;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: $main-color;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.main-color {
+  color: $main-color;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.button {
+  border: 0;
+  background-color: $main-color;
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
